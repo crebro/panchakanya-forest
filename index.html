@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panchakanya Communtiy Forest</title>
+    <!-- <script src="/scripts/twcss.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="overflow-x: hidden">
+    <div
+      class="bg-black"
+      style="
+        background-image: url('/assets/animals/leopard.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-position: 0% 30%; */
+        background-color: rgba(0, 0, 0, 0.7);
+        background-blend-mode: darken;
+        /* object-fit: contain; */
+        width: 100vw;
+        height: 800px;
+        max-height: 800px;
+        box-sizing: border-box;
+      "
+    >
+      <!-- Navigation goes here -->
+      <div class="flex items-center justify-center p-10 h-[10%] flex-wrap">
+        <div
+          class="flex w-[80vw] justify-center sm:justify-between items-center text-white flex-wrap"
+        >
+          <a href="/index.html">Panchayanya Community Forest</a>
+          <div class="flex text-sm md:text-lg">
+            <a
+              href="/codehiking.html"
+              class="px-4 mx-4 py-2 duration-200 rounded-lg cursor-pointer hover:bg-white hover:text-black"
+            >
+              Code Hike
+            </a>
+            <a href="/contact.html"
+              ><div
+                class="px-4 mx-4 py-2 duration-200 rounded-lg cursor-pointer hover:bg-white hover:text-black"
+              >
+                Contact
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation ends here -->
+      <div
+        class="flex h-[90%] items-center justify-center text-white flex-col text-center"
+        style="box-sizing: border-box"
+      >
+        <div class="text-3xl md:text-6xl">Panchakanya Community Forest</div>
+        <a
+          class="text-2xl sm:text-4xl text-[#34c0eb] cursor-pointer"
+          href="https://www.google.com/maps/place/Panchakanya+community+forest/@27.7680352,85.372568,18.5z/data=!4m14!1m7!3m6!1s0x39eb1d6cc1c5da5f:0xa01399598feb24d9!2sPanchakanya+community+forest!8m2!3d27.7682264!4d85.373173!16s%2Fg%2F11jdtnc2pn!3m5!1s0x39eb1d6cc1c5da5f:0xa01399598feb24d9!8m2!3d27.7682264!4d85.373173!16s%2Fg%2F11jdtnc2pn?hl=en&entry=ttu"
+          target="_blank"
+          >Budanilkantha, 44600</a
+        >
+        <div class="mt-8 flex flex-col items-center">
+          <div class="flex items-center justify-center flex-wrap">
+            <input
+              class="px-8 py-2 text-xl rounded-full bg-gray-300 text-black"
+              placeholder="Your email"
+            />
+            <div class="w-2 h-2"></div>
+            <button class="px-8 py-2 text-xl mx-2 bg-[#2b95c5] rounded-full">
+              Connect
+            </button>
+          </div>
+          <div class="text-lg mt-2">contact us</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-40">
+      <div class="w-[90%] md:w-[80%] lg:w-[50%] m-auto">
+        <div class="text-4xl sm:text-6xl font-bold text-center">
+          <span class="text-[#21b058]">Forests </span>are mother Nature's <br />
+          Greatest Treasure.
+        </div>
+        <div>
+          <p class="text-lg mt-4 text-center">
+            Panchakanya Community Forest is a community forest located in
+            Budanilkantha, Kathmandu. It is a beautiful forest with a variety of
+            flora and fauna. The forest is a popular destination for nature
+            lovers and hikers. The forest is home to a variety of wildlife
+            including leopards, deer, and monkeys. The forest is also home to a
+            variety of bird species. The forest is a great place to go for a
+            walk and enjoy the beauty of nature.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animals Section  -->
+    <div class="my-20">
+      <div class="text-4xl text-center mb-4 font-bold">Animals at PCF</div>
+
+      <div class="w-[80%] m-auto">
+        <div id="loading-text" class="text-center mt-2">Loading Images</div>
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 gap-4"
+          id="animals-display"
+        ></div>
+      </div>
+    </div>
+    <!-- Animals Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+      <div
+        class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+      >
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2024
+          <a href="https://flowbite.com/" class="hover:underline"
+            >Panchakanya Community Forest </a
+          >. All Rights Reserved.
+        </span>
+        <ul
+          class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
+        >
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6"
+              >Code hike hackathon</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+      body {
+        font-family: "League Spartan";
+      }
+    </style>
+    <script>
+      const blogurl =
+        "https://www.googleapis.com/blogger/v3/blogs/7974914665275541313/posts/8384669558490072522?key=AIzaSyA0BRISBj0abciLlxe3wGSEaL9pxhjnnBs";
+      const parser = new DOMParser();
+      const animalsDisp = document.getElementById("animals-display");
+      const loadingimages = document.getElementById("loading-text");
+
+      async function getDetails() {
+        const response = await fetch(blogurl);
+        const data = await response.json();
+
+        const parsedContent = parser.parseFromString(data.content, "text/html");
+        const images = parsedContent.getElementsByTagName("a");
+
+        for (let i = 0; i < images.length; i++) {
+          animalsDisp.innerHTML += `
+          <div>
+            <img
+              class="h-[350px] w-full object-cover max-w-full rounded-lg"
+              src="${images[i].href}"
+              alt=""
+            />`;
+        }
+        loadingimages.style.display = "none";
+      }
+
+      getDetails();
+    </script>
+  </body>
+</html>
